@@ -48,7 +48,7 @@ export function Chapter1() {
     "Happy Birthday Pakeeza, I wish I could make so much more for you.",
     "But this is all I could in the little time I had, So",
     "Take your time.",
-    "There's no rush.",
+    "There's no rush..",
   ];
   const emphasis = new Set([0, 4, 9, 11]);
   return (
