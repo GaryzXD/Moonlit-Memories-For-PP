@@ -10,14 +10,7 @@ import honst from "../assets/KIKI PIctures/honst rct.png";
 import imog from "../assets/KIKI PIctures/i mog.png";
 import sorrywhat from "../assets/KIKI PIctures/sorrywhat.png";
 
-import acha from "../assets/KIKI SS/acha ji.png";
-import happy from "../assets/KIKI SS/got happy.png";
-import bully from "../assets/KIKI SS/how i bully u.png";
-import happy2 from "../assets/KIKI SS/i got so happy.png";
-import iconic from "../assets/KIKI SS/iconic.png";
-import bully2 from "../assets/KIKI SS/oh how i luv bully.png";
-import soulmate from "../assets/KIKI SS/soulmatism.png";
-import funny from "../assets/KIKI SS/w js funny lik that.png";
+
 
 import cantstop from "../assets/PAKI VNS/cant stop listing to this.mp3";
 import dacak from "../assets/PAKI VNS/da cak.mp3";
@@ -775,14 +768,14 @@ export function Chapter9() {
 
 
 const outtakes = [
-  { text: "How I bully you.", image: bully },
-  { text: "Oh, how I love bullying you.", image: bully2 },
-  { text: "I have found my therapy.", image: happy },
-  { text: "Achha ji.", image: acha },
-  { text: "The iconic.", image: iconic },
-  { text: "I got so happyyyy.", image: happy2 },
-  { text: "Soulmatisms.", image: soulmate },
-  { text: "We're just so funny.", image: funny },
+  { text: "How I bully you.",  },
+  { text: "Oh, how I love bullying you.",  },
+  { text: "I have found my therapy.",  },
+  { text: "Achha ji.", },
+  { text: "The iconic.",  },
+  { text: "I got so happyyyy.", },
+  { text: "Soulmatisms.",  },
+  { text: "We're just so funny.", },
 ];
 
 /** ============ CHAPTER 10 — Outtakes ============ */
@@ -804,7 +797,7 @@ export function Chapter10() {
             <div className="text-[10px] uppercase tracking-[0.3em] opacity-50">Outtake {String(i+1).padStart(2,"0")}</div>
             <div className="serif italic text-glow text-base leading-tight"><>
   <img
-    src={o.image}
+    src={`OUTTAKE_IMAGE_${String(i + 1).padStart(2, "0")}`}
     alt={o.text}
     className="w-full rounded-xl object-cover mb-3"
   />
