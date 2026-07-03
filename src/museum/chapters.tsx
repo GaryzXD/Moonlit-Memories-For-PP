@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChapterShell, Placeholder, Card } from "./ChapterShell";
 import { useMusic } from "./music";
 
-import amazon from "../assets/KIKI PIctures/amazon paki.png";
+import amazon from "../assets/KIKI Pictures/amazon paki.png";
 import cat from "../assets/KIKI Pictures/cat mw.png";
 import crpr from "../assets/KIKI Pictures/crpr mc.png";
 import honst from "../assets/KIKI Pictures/honst rct.png";
