@@ -3,12 +3,12 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChapterShell, Placeholder, Card } from "./ChapterShell";
 import { useMusic } from "./music";
 
-import amazon from "../assets/KIKI Pictures/amazon paki.png";
-import cat from "../assets/KIKI Pictures/cat mw.png";
-import crpr from "../assets/KIKI Pictures/crpr mc.png";
-import honst from "../assets/KIKI Pictures/honst rct.png";
-import imog from "../assets/KIKI Pictures/i mog.png";
-import sorrywhat from "../assets/KIKI Pictures/sorrywhat.png";
+import amazon from "../assets/KIKI PIctures/amazon paki.png";
+import cat from "../assets/KIKI PIctures/cat mw.png";
+import crpr from "../assets/KIKI PIctures/crpr mc.png";
+import honst from "../assets/KIKI PIctures/honst rct.png";
+import imog from "../assets/KIKI PIctures/i mog.png";
+import sorrywhat from "../assets/KIKI PIctures/sorrywhat.png";
 
 import acha from "../assets/KIKI SS/acha ji.png";
 import happy from "../assets/KIKI SS/got happy.png";
